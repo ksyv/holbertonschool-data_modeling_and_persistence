@@ -1,0 +1,1 @@
+SELECT MIN (PRICE) FROM books
