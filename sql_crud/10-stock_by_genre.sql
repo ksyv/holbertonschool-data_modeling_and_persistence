@@ -1,2 +1,2 @@
-SELECT genre, COUNT (*) FROM books
+SELECT genre, SUM (*) FROM books
 GROUP BY genre
