@@ -1,2 +1,2 @@
-SELECT title, author FROM books
+SELECT title, price FROM books
 WHERE genre = 'Tech' AND price > 30
