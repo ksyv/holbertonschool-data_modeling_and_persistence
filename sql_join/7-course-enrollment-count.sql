@@ -2,4 +2,4 @@ SELECT courses.title AS course_title, COUNT(enrollments.student_id) AS enrollmen
 FROM courses
 LEFT JOIN enrollments ON courses.id = enrollments.course_id
 GROUP BY courses.id
-ORDER BY course_title ASC, enrollment_count ASC;
+ORDER BY enrollment_count DESC, course_title ASC;
